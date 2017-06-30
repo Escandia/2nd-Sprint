@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+color:rgb(56,72,82);
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: MediumBlue;
+}
+
+.rules{
+  font-size: 13px;
+}
+
+.mainContainer{
+  background-color: rgb(232,236,243);
+  padding: 20px;
+}
+
+.containerForm {
+  width: 500px;
+}
+
+.input {
+  display: inline-block;
+  border: 1px solid rgb(156,167,173);
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.completName {
+  width: 50%;
+}
+
+.complementData {
+  width: 100%
+}
+
+.listBirthay {
+  background-color: white;
+  border: 1px solid rgb(156,167,173);
+  padding: 5px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+label, .labelSex{
+  margin-bottom: 10px;
+  margin: 10px;
+}
+
+.labelBirthday {
+  display: block;
+}
+
+.rules {
+  margin-top: 26px;
+  padding: 5px;
+}
+
+.submit {
+  border: 1px solid rgb(156,167,173);
+  background-color: rgb(79,151,75);
+  width: 50%;
+  font-size: 20px;;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
